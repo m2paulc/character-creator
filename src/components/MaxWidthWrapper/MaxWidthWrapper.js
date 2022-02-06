@@ -7,14 +7,14 @@ const MaxWidthWrapper = ({
   className = '',
   ...delegated
 }) => {
-  return (
+  return (<>
     <div
       className={`${styles.maxWidthWrapper} ${className}`}
       {...delegated}
     >
       {children}
     </div>
-  );
+  </>);
 };
 
 export default MaxWidthWrapper;
