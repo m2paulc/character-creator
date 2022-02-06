@@ -7,10 +7,10 @@
 
 .backdraft {
 	position: absolute;
-	top: 40%;
+	top: 25%;
 	left: 0;
 	width: 100%;
-	height: calc(100% - 40%);
+	height: calc(100% - 25%);
 	background-color: hsl(195deg, 20%, 86%);
 	z-index: -1;
 }
