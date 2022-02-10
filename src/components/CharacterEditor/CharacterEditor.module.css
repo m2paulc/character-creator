@@ -1,21 +1,19 @@
 .characterEditor {
 	padding-top: 128px;
 	padding-bottom: 64px;
-	position: relative;
-	isolation: isolate;
 }
 
 .backdraft {
 	position: absolute;
-	top: 25%;
+	top: 50%;
 	left: 0;
 	width: 100%;
-	height: calc(100% - 25%);
+	height: 150%;
 	background-color: hsl(195deg, 20%, 86%);
-	z-index: -1;
 }
 
 .maxWidthWrapper {
+	position: relative;
 }
 
 .header {
